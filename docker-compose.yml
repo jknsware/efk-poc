@@ -3,7 +3,7 @@ services:
   node:
     build: ./nodeapp
     ports:
-      - "80:80"
+      - "3000:3000"
     logging:
       driver: "fluentd"
       options:
